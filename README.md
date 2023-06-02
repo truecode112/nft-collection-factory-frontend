@@ -6,22 +6,12 @@ Required:
 - [Yarn](https://classic.yarnpkg.com/en/docs/install/)
 - [Git](https://git-scm.com/downloads)
 
-Make sure that:
-
-- Contracts are built and deployed to a live localhost network (`contracts/yarn chain`)
-- Artifacts and .env are synced (`home/sync.sh`)
-- Backend is running
-
 Install the deps and start a dev server:
 
 ```bash
 $ yarn
 $ yarn dev
 ```
-
-The site is now running at `http://localhost:3332`!
-Open the source code and start editing!
-Make sure your Metamask chainId is 31337. It is 1337 by default.
 
 ## Architecture/Layout
 
