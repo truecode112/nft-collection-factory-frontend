@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const apiClient = axios.create({
-  baseURL: "http://66.94.96.175:3333",
+  baseURL: "https://dev.goodmealtime.com/nft-collection-api",
   headers: {
     "Content-type": "application/json",
   },
